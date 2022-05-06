@@ -13,5 +13,5 @@ Other experiments are located in the main folder
 ## TODO:
 
 - Improve model accuracy
-- Make easier way to combine datasets
-- Train on 50th percentile dataset
+- Fix predictions
+    - Last 5 games should be last 5 played games
