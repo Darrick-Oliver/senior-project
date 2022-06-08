@@ -1,11 +1,7 @@
-# CPE 461 Senior Project
+# CPE 461 and 462 Senior Project
 
 Creating individual player predictions using head-to-head data
 
 ## Experiments
 
-Currently working on model with offensive and defensive stats as inputs, head to head points as output. Located in 
-
-### `h2h_off_def_experiment`
-
-Other experiments are located in the main folder
+Check the src folder for the 5 stage process of generating predictions
