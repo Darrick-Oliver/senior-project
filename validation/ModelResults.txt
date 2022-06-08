@@ -1,0 +1,29 @@
+5 minute min:
+11.58, 8.89 : overfitted
+11.75, 9.00 : fitted correctly
+
+	model.add(Dense(int(X.shape[1] * 2), activation='relu', input_shape=(X.shape[1],)))
+	model.add(Dropout(0.3))
+	model.add(Dense(64, activation='relu'))
+	model.add(Dropout(0.6))
+
+25 poss min:
+11.72, 8.96 : fitted correctly
+
+	model.add(Dense(int(X.shape[1] * 2), activation='relu', input_shape=(X.shape[1],)))
+	model.add(Dropout(0.3))
+	model.add(Dense(64, activation='relu'))
+	model.add(Dropout(0.6))
+
+30 poss min:
+epochs=2000
+	model.add(Dense(int(X.shape[1] * 2), activation='relu', input_shape=(X.shape[1],)))
+	model.add(Dropout(0.3))
+	model.add(Dense(64, activation='relu'))
+	model.add(Dropout(0.6))
+
+RMSE: 10.999714934383315
+MAE: 8.49972915649414
+
+RMSE improvement over Linear Regression (%): 2.8981905724703485
+MAE improvement over Linear Regression (%): 3.7512211096182697
